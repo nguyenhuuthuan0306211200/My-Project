@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-inline{
+  display: flex;
+  margin-left: 60%;
+}
+.col-6{
+  margin: auto;
+}
+.thanh-cc{text-align: left;margin: auto;color:brown;background-color:#61dafb;}
+.nav{display: flex;color: brown;background-color: black;padding: 1px;}
+.collapse{color: black;}
+.san_pham{display: inline-block;}
+.ten-color{text-align: center;padding: 2px 50px;margin-left: 40px;}
+.button-color{color: black;background-color: #61dafb;}
+.button{display: block;background-color:azure; padding: 2px 90px;width: 300px;
+margin:0 0 0 40px;}
+.button2{background-color:brown;width: 180px;margin-left: 20%;height: 50px;margin-top: 9%;}
+.collapse2{background-color: #282c34;height: 50px;}
+.mb-4{margin-left: 500%;display: flex;margin-top: 7%;}
+.pic1{text-align: center;margin:0 0 0 90px;}
+.form-group{width: 500px;margin-left: 600px;}
+.form-checked{margin: 100px;padding-left: 100px;}
